@@ -41,7 +41,7 @@ jobs:
     # deploy web app
     - uses: azure/webapps-deploy@v1
       with: 
-        app-name: issacnitinpythonwebapplinux3  # Replace with your app name
+        app-name: issacnitinpythonlinuxwebapp  # Replace with your app name
         package: './myapp.zip'
 
     # Azure logout 
