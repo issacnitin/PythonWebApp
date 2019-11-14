@@ -27,7 +27,7 @@ jobs:
     # install dependencies
     - name: python install
       run: |
-        sudo apt install python3.6-venv
+        sudo apt install python3.7-venv
         python -m venv antenv
         source antenv/bin/activate
         pip install setuptools
